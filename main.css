@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 100%;
+    /* width: 1536px; */
+    height: auto;
+    /* height: 691px; */
+}
+
+.container {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #00000033;
+    display: none;
+    max-width: 300px;
+}
+
+.diagram-point {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Pointlar pozitsiyasi */
+.point-1 { top: 369px; left: 780px; }
+.point-2 { top: 428px; left: 780px; }
+.point-3 { top: 487px; left: 780px; }
+.point-4 { top: 547px; left: 780px; }
+.point-5 { top: 606px; left: 780px; }
+.point-6 { top: 666px; left: 780px; }
+.point-7 { top: 726px; left: 780px; }
+.point-8 { top: 368px; left: 1158px; }
+.point-9 { top: 427px; left: 1158px; }
+.point-10 { top: 487px; left: 1158px; }
+.point-11 { top: 547px; left: 1158px; }
+.point-12 { top: 607px; left: 1158px; }
+.point-13 { top: 666px; left: 1158px; }
+.point-14 { top: 726px; left: 1158px; }
